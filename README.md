@@ -29,3 +29,9 @@ IdentityFile ~/.ssh/<your_github_ssh_key>" >> ~/.ssh/config
 ssh github.com
 
 ```
+	
+## MongoDB GPG Key
+```bash
+sudo apt-key adv --keyserver-options http-proxy="http://"$http_proxy --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
+```
+
